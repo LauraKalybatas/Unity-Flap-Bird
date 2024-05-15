@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class birdie : MonoBehaviour
 {
+    [SerializeField]
+    private float velocidade = 3;
     Rigidbody2D fisica;
 
     // Start is called before the first frame update
@@ -23,6 +25,6 @@ public class birdie : MonoBehaviour
 
     void Impulsionar()
     {
-        this.fisica.AddForce(Vector2.up * 3, ForceMode2D.Impulse);
+        this.fisica.AddForce(Vector2.up * velocidade, ForceMode2D.Impulse);
     }
 }
