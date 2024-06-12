@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: initial; background-color: rgb(42, 63, 118); width: 50px; height: 50px; align-self: center; justify-content: flex-end; align-items: stretch; margin-top: 30px;">
+        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="pontos" enable-rich-text="true" style="color: rgb(255, 255, 255); text-overflow: clip; -unity-text-align: middle-center; flex-wrap: nowrap; align-self: center; align-items: stretch; justify-content: flex-start; margin-bottom: 12px;" />
+    </ui:VisualElement>
+</ui:UXML>
